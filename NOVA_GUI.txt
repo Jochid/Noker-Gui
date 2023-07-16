@@ -1331,6 +1331,22 @@ SecondarySection:AddButton(
 
     {
 
+        Name = "fly",
+
+        Callback = function()
+
+        loadstring(game:HttpGet("https://pastebin.com/raw/W51Rv1NP"))()
+        
+        end
+
+    }
+
+)
+
+SecondarySection:AddButton(
+
+    {
+
         Name = "Big Head Trail",
 
         Callback = function()
